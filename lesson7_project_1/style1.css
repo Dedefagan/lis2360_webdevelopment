@@ -24,6 +24,7 @@ h1 {
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
+	background-color: #999938;
 }
 h2 {
 	font-size: 20px;
@@ -48,6 +49,7 @@ a:link {
 	font-weight: bold;
 	color: #BF6545;
 	text-decoration: none;
+	margin: -2px;
 }
 a:visited {
 	font-weight: bold;
@@ -57,6 +59,7 @@ a:visited {
 a:hover {
 	color: #00fff2;
 }
+
 
 /* list styles ----------------------------- */
 ul li {
@@ -112,7 +115,7 @@ iframe {
 	width: 100%;
 	background-color: #49BF94;
 	border-bottom: 1px ;
-	padding-bottom: 4px ; 
+	 
 }
 #content{
 	width: 600px;
@@ -130,7 +133,7 @@ iframe {
 }
 #footer{
 	width: 100%;
-	background-color: #49BF94;
+	background-color: #999938;
 	padding-bottom: 20px;
 	clear: both;
 }
