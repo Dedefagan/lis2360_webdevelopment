@@ -1,0 +1,29 @@
+body{
+        margin: 0;
+        padding: 0;
+}
+
+#splash{
+        background-color: #fffff;
+        height: 1000px;
+}
+
+#overview{
+        background-color: #EBEEF2;
+        height: 1000px;
+}
+
+#video{
+        background-color: #fffff;
+        height: 1000px;
+}
+
+#result{
+        background-color: #A9C6D9;
+        height: 1000px;
+}
+
+#footer{
+        background-color: #5185A6;
+        height: 1000px;
+}
