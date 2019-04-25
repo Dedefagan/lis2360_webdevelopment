@@ -8,12 +8,15 @@ body {
 	color: #FFFFFF;
 	background-color: #C6FFC1;
 	padding: 0 40px;
+	margin: 0;
 }
 
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #BF6545;
+	padding-left: 10px;
+	margin: 4px;
 }
 h1 {
 	font-size: 24px;
@@ -64,6 +67,8 @@ ol {
 	margin-left: 14px;
 }
 
+
+
 /* table styles -------------------------------------- */
 table {
 	border: solid #BF6545 1px;
@@ -94,4 +99,41 @@ iframe {
 	border: solid #BF6545 1px;
 	padding: 8px;
 	margin: 8px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+	
+}
+#header{
+	width: 100%;
+	background-color: #49BF94;
+	border-bottom: 1px ;
+	padding-bottom: 4px ; 
+}
+#content{
+	width: 600px;
+	float: left;
+	background-color: #49BF94;
+	margin-left: auto;
+}
+#sidebar{
+	width: 300px;
+	float: left;
+	
+}
+#sidebar p{
+	padding: 10px;
+}
+#footer{
+	width: 100%;
+	background-color: #49BF94;
+	padding-bottom: 20px;
+	clear: both;
+}
+#footer p{
+	margin: 0;
 }
